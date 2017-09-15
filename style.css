@@ -97,3 +97,16 @@ td {
 	align-self: center;
 	object-fit: contain;
 }
+
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"] + label {
+    position: relative;
+    cursor:pointer;
+}
+
+input[type="radio"] + label:before {
+    content: "";
+}
