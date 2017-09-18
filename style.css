@@ -105,16 +105,33 @@ td {
 
 .images {
 	width: 95%;
+	table-layout: fixed;
 }
 
 .images td {
 	padding: 10px;
+	width: 25%;
 }
 .images img {
 	box-sizing: border-box;
-	align-self: center;
 	padding: 10px;
 	width: 100%;
 	height: auto;
 }
 
+.footer {
+	background: #3E2723;
+	position: fixed;
+	bottom: 0;
+	height: 20px;
+	width: 100%;
+	color: #FFF;
+}
+
+.creator {
+	display: flex;
+	font-size: 12px;
+	float: right;
+	margin-top: 3px;
+	margin-right: 10px;
+}
